@@ -1,0 +1,109 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: purple;;
+}
+.page{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 15vh;
+	height: 90vh;
+}
+.nav-bar{
+	min-height: 10vh;
+	width: 100%;
+	background-color: black;
+	color:white;
+	padding: 20px;
+	position: fixed;
+	top:0px;
+	margin: 0px;
+	opacity: .9;
+}
+.nav-bar:hover{
+	opacity: 1;
+}
+
+#brand{
+	font-size: 1.5em;
+	text-align: left;
+	float:left;
+}
+.menu{
+	color:white;
+	margin:0px 20px;
+	height:100%;
+	padding: 2%;
+	font-size: 1.5em;
+	overflow: hidden;
+
+}
+
+.menu:hover{
+	background-color: white;
+	color:black;
+
+}
+#menu-item{
+	text-align: right;
+}
+.active{
+	background-color: white;
+	color:black;
+
+}
+.content{
+	height: 70vh;
+	background-color: white;
+}
+.brand-name{
+	color:white;
+	text-align: center;
+	font-size: 7em;
+}
+.brand-image{
+	float:left;
+	align:left;
+	height: 70px;
+	width: 70px;
+	border-radius: 70px;
+}
+.nav{
+	margin-bottom: 15vh;
+}
+a{
+	text-decoration: none;
+}
+#Home-image{
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+	background-color: white;
+	visibility: visible;
+}
+/**--Home Page ends---**/
+
+
+@media (max-width: 1000px){
+	#menu-item{
+		visibility: hidden;
+	}
+	.nav-bar{
+		height: 30px;
+	}
+	#brand{
+		margin: 0px;
+		padding: 0px;
+		text-align:center;
+	}
+	.brand-name{
+		font-size: 5em;
+	}
+	.brand-image{
+		visibility: hidden;
+	}
+}
